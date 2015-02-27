@@ -1,8 +1,8 @@
 System.config({
   "paths": {
     "*": "*.js",
-    "github:*": "https://github.jspm.io/*.js",
-    "npm:*": "https://npm.jspm.io/*.js",
+    "github:*": "jspm_packages/github/*.js",
+    "npm:*": "jspm_packages/npm/*.js",
     "aurelia-skeleton-navigation/*": "lib/*.js"
   }
 });
